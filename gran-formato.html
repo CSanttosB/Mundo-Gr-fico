@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impresión Gran Formato y Eventos | Mundo Gráfico Madrid</title>
+    <meta name="description" content="Lonas publicitarias, stands para ferias y roll-ups en Madrid. Gran formato con máxima resolución.">
+    <meta name="view-transition" content="same-origin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#dd0033',
+                            cyan: '#00c4dd',
+                            dark: '#0a0a0a',
+                            light: '#f8fafc'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="top-accent">
+
+    <!-- Navegación -->
+    <nav class="sticky top-0 z-50 glass-nav bg-white/95">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-24">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="flex items-center gap-3">
+                        <img class="h-12 w-auto" src="logo.png" alt="Mundo Gráfico Madrid">
+                        <span class="font-bold text-2xl tracking-tight hidden sm:block">Mundo Gráfico</span>
+                    </a>
+                </div>
+                <nav class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="rotulacion.html" class="nav-link">Rotulación</a>
+                    <a href="ropa-laboral.html" class="nav-link">Ropa Laboral</a>
+                    <a href="gran-formato.html" class="nav-link active">Gran Formato</a>
+                </nav>
+                <div class="hidden md:flex items-center">
+                    <a href="contacto.html" class="btn btn-primary">Pedir Presupuesto</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-btn" class="text-gray-900 focus:outline-none">
+                        <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-4 pt-2 pb-6 shadow-xl border-t border-gray-100">
+            <a href="index.html" class="block py-3 font-medium text-gray-700">Inicio</a>
+            <a href="rotulacion.html" class="block py-3 font-medium text-gray-700">Rotulación</a>
+            <a href="ropa-laboral.html" class="block py-3 font-medium text-gray-700">Ropa Laboral</a>
+            <a href="gran-formato.html" class="block py-3 font-semibold text-brand-red">Gran Formato</a>
+            <a href="contacto.html" class="block py-3 font-medium text-gray-700">Contacto</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-section bg-[#111827] text-white border-none">
+            <div class="max-w-5xl mx-auto relative z-10">
+                <span class="trust-badge bg-white/10 text-white mb-6">IFEMA & Centros de Convenciones</span>
+                <h1 class="hero-title text-white">Domina el espacio visual en <span class="text-brand-cyan">cualquier evento</span>.</h1>
+                <p class="hero-subtitle text-gray-400">Impresión en gran formato, lonas, stands y expositores portátiles. Creamos soportes de alto impacto que atraen todas las miradas.</p>
+                <div class="mt-8 flex justify-center gap-4">
+                    <a href="contacto.html" class="btn btn-primary bg-brand-cyan border-brand-cyan hover:bg-white hover:text-gray-900 hover:border-white">Cotizar Evento</a>
+                </div>
+            </div>
+            <div class="absolute top-0 right-0 w-96 h-96 rounded-full bg-brand-cyan/20 blur-[120px] -z-10"></div>
+        </section>
+
+        <!-- Masonry / Bento Grid para Gran Formato -->
+        <section class="py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    
+                    <div class="premium-card p-12 bg-gray-50 flex flex-col justify-between h-[500px]">
+                        <div>
+                            <h3 class="text-3xl font-bold mb-4">Lonas y Pancartas</h3>
+                            <p class="text-gray-600 font-medium text-lg">Impresión en lonas de PVC frontlit, microperforadas y blockout. Máxima resistencia a la intemperie y resolución fotográfica para fachadas o andamios.</p>
+                        </div>
+                        <div class="mt-8 h-48 rounded-xl bg-gray-200 overflow-hidden">
+                            <img src="images/lona_gran_formato.jpg" class="w-full h-full object-cover" alt="Lonas">
+                        </div>
+                    </div>
+
+                    <div class="premium-card p-12 bg-white flex flex-col justify-between h-[500px]">
+                        <div>
+                            <h3 class="text-3xl font-bold mb-4">Stands y Expositores</h3>
+                            <p class="text-gray-600 font-medium text-lg">Soluciones modulares, Roll-ups, Pop-ups y Photocalls. Soportes portátiles fáciles de montar para llevar tu marca a cualquier feria.</p>
+                        </div>
+                        <div class="mt-8 h-48 rounded-xl bg-gray-200 overflow-hidden">
+                            <img src="images/stand_feria.jpg" class="w-full h-full object-cover" alt="Stands">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="py-16 bg-brand-red text-white">
+            <div class="max-w-7xl mx-auto px-4 text-center">
+                <h3 class="text-3xl font-bold mb-6">¿Tienes un evento la próxima semana?</h3>
+                <p class="text-xl text-red-100 font-medium mb-8 max-w-2xl mx-auto">Nuestro servicio de producción rápida está pensado para agencias y empresas que necesitan resultados impecables en tiempos récord.</p>
+                <a href="contacto.html" class="btn btn-secondary bg-white text-brand-red border-white hover:bg-gray-100">Contactar Urgente</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#111827] text-gray-300 pt-20 pb-10 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div class="md:col-span-1">
+                    <img src="logo.png" alt="Mundo Gráfico Madrid" class="h-16 w-auto mb-6 brightness-0 invert">
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">Servicios</h4>
+                    <ul class="space-y-4 text-sm font-medium">
+                        <li><a href="rotulacion.html" class="hover:text-brand-cyan transition-colors">Rotulación y Vinilos</a></li>
+                        <li><a href="ropa-laboral.html" class="hover:text-brand-cyan transition-colors">Ropa Laboral Personalizada</a></li>
+                        <li><a href="gran-formato.html" class="hover:text-brand-cyan transition-colors">Impresión Gran Formato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">Contacto</h4>
+                    <ul class="space-y-4 text-sm font-medium">
+                        <li><a href="mailto:info@mundograficomadrid.com" class="hover:text-brand-cyan transition-colors">info@mundograficomadrid.com</a></li>
+                        <li><a href="tel:+34673355821" class="hover:text-brand-cyan transition-colors">673 355 821</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex justify-between items-center text-sm font-medium">
+                <p>&copy; 2024 Mundo Gráfico Madrid.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => { menu.classList.toggle('hidden'); });
+
+        document.querySelectorAll('a[href]').forEach(link => {
+            link.addEventListener('click', e => {
+                const href = link.getAttribute('href');
+                if (href && !href.startsWith('http') && !href.startsWith('mailto') && !href.startsWith('tel') && href !== '#' && link.target !== '_blank') {
+                    e.preventDefault();
+                    document.body.style.animation = 'fade-out 0.25s forwards';
+                    setTimeout(() => window.location.href = href, 200);
+                }
+            });
+        });
+    </script>
+    <script src="js/editor.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

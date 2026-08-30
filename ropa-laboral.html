@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa Laboral Personalizada | Mundo Gráfico Madrid</title>
+    <meta name="description" content="Personalización de uniformes y ropa laboral en Madrid. Bordado y estampación premium.">
+    <meta name="view-transition" content="same-origin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#dd0033',
+                            cyan: '#00c4dd',
+                            dark: '#0a0a0a',
+                            light: '#f8fafc'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="top-accent">
+
+    <!-- Navegación -->
+    <nav class="sticky top-0 z-50 glass-nav bg-white/95">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-24">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="flex items-center gap-3">
+                        <img class="h-12 w-auto" src="logo.png" alt="Mundo Gráfico Madrid">
+                        <span class="font-bold text-2xl tracking-tight hidden sm:block">Mundo Gráfico</span>
+                    </a>
+                </div>
+                <nav class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="rotulacion.html" class="nav-link">Rotulación</a>
+                    <a href="ropa-laboral.html" class="nav-link active">Ropa Laboral</a>
+                    <a href="gran-formato.html" class="nav-link">Gran Formato</a>
+                </nav>
+                <div class="hidden md:flex items-center">
+                    <a href="contacto.html" class="btn btn-primary">Pedir Presupuesto</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-btn" class="text-gray-900 focus:outline-none">
+                        <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-4 pt-2 pb-6 shadow-xl border-t border-gray-100">
+            <a href="index.html" class="block py-3 font-medium text-gray-700">Inicio</a>
+            <a href="rotulacion.html" class="block py-3 font-medium text-gray-700">Rotulación</a>
+            <a href="ropa-laboral.html" class="block py-3 font-semibold text-brand-red">Ropa Laboral</a>
+            <a href="gran-formato.html" class="block py-3 font-medium text-gray-700">Gran Formato</a>
+            <a href="contacto.html" class="block py-3 font-medium text-gray-700">Contacto</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Techy & Clean - Printful style) -->
+    <main>
+        <section class="hero-section bg-gray-50 border-none">
+            <div class="max-w-4xl mx-auto relative z-10 text-center">
+                <span class="trust-badge mb-6">Alta Resistencia a Lavados</span>
+                <h1 class="hero-title">Viste a tu equipo <br>con <span class="text-brand-cyan">identidad</span>.</h1>
+                <p class="hero-subtitle">Calidad textil premium combinada con técnicas de bordado e impresión de última generación. Creado para resistir el día a día.</p>
+                <a href="contacto.html" class="btn btn-primary mt-4">Cotizar Uniformes</a>
+            </div>
+            <div class="absolute inset-0 z-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] opacity-50"></div>
+        </section>
+
+        <!-- Product Grid (Tech / Boutique) -->
+        <section class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center mb-16 max-w-3xl mx-auto">
+                    <h2 class="text-3xl font-bold mb-4">Técnicas de marcaje avanzadas</h2>
+                    <p class="text-lg text-gray-500">Seleccionamos el mejor método según el tejido y el uso que le vayas a dar a la prenda.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    
+                    <!-- Feature: Bordado -->
+                    <div class="premium-card p-10 flex flex-col items-center text-center">
+                        <div class="w-20 h-20 bg-gray-50 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-10 h-10 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z"/></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Bordado Industrial</h3>
+                        <p class="text-gray-600 font-medium mb-6 flex-grow">El acabado más elegante y duradero. Ideal para polos, chaquetas, delantales y gorras. Aporta relieve y un aspecto corporativo premium.</p>
+                        <div class="w-full bg-gray-100 rounded-lg h-48 overflow-hidden relative">
+                            <img src="images/ropa_bordado.jpg" class="w-full h-full object-cover" alt="Bordado">
+                        </div>
+                    </div>
+
+                    <!-- Feature: DTF / Serigrafía -->
+                    <div class="premium-card p-10 flex flex-col items-center text-center">
+                        <div class="w-20 h-20 bg-gray-50 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-10 h-10 text-brand-cyan" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Estampación y DTF</h3>
+                        <p class="text-gray-600 font-medium mb-6 flex-grow">Colores vibrantes y alta definición para diseños complejos o fotografías. Perfecto para camisetas promocionales o sudaderas corporativas.</p>
+                        <div class="w-full bg-gray-100 rounded-lg h-48 overflow-hidden relative">
+                            <img src="images/ropa_laboral.jpg" class="w-full h-full object-cover" alt="Estampación">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-24 bg-brand-dark text-white text-center">
+            <div class="max-w-4xl mx-auto px-4">
+                <h2 class="text-4xl font-bold mb-6">Catálogo multimarca</h2>
+                <p class="text-xl text-gray-300 font-medium mb-10">Trabajamos con los principales proveedores de ropa laboral de Europa para ofrecerte la prenda exacta que tu sector necesita (Hostelería, Sanidad, Industria, Oficina).</p>
+                <a href="contacto.html" class="btn btn-primary bg-brand-cyan border-brand-cyan hover:bg-white hover:text-brand-dark hover:border-white">Solicitar Catálogo Completo</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Compartido -->
+    <footer class="bg-[#111827] text-gray-300 pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div class="md:col-span-1">
+                    <img src="logo.png" alt="Mundo Gráfico Madrid" class="h-16 w-auto mb-6 brightness-0 invert">
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">Servicios</h4>
+                    <ul class="space-y-4 text-sm font-medium">
+                        <li><a href="rotulacion.html" class="hover:text-brand-cyan transition-colors">Rotulación y Vinilos</a></li>
+                        <li><a href="ropa-laboral.html" class="hover:text-brand-cyan transition-colors">Ropa Laboral Personalizada</a></li>
+                        <li><a href="gran-formato.html" class="hover:text-brand-cyan transition-colors">Impresión Gran Formato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">Contacto</h4>
+                    <ul class="space-y-4 text-sm font-medium">
+                        <li><a href="mailto:info@mundograficomadrid.com" class="hover:text-brand-cyan transition-colors">info@mundograficomadrid.com</a></li>
+                        <li><a href="tel:+34673355821" class="hover:text-brand-cyan transition-colors">673 355 821</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex justify-between items-center text-sm font-medium">
+                <p>&copy; 2024 Mundo Gráfico Madrid.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => { menu.classList.toggle('hidden'); });
+
+        document.querySelectorAll('a[href]').forEach(link => {
+            link.addEventListener('click', e => {
+                const href = link.getAttribute('href');
+                if (href && !href.startsWith('http') && !href.startsWith('mailto') && !href.startsWith('tel') && href !== '#' && link.target !== '_blank') {
+                    e.preventDefault();
+                    document.body.style.animation = 'fade-out 0.25s forwards';
+                    setTimeout(() => window.location.href = href, 200);
+                }
+            });
+        });
+    </script>
+    <script src="js/editor.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

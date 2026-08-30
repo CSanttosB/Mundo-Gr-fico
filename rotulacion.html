@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotulación y Vinilos | Mundo Gráfico Madrid</title>
+    <meta name="description" content="Rotulación de locales, vehículos y escaparates en Madrid. Fabricación propia e instalación profesional.">
+    <meta name="view-transition" content="same-origin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#dd0033',
+                            cyan: '#00c4dd',
+                            dark: '#0a0a0a',
+                            light: '#f8fafc'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="top-accent">
+
+    <!-- Navegación -->
+    <nav class="sticky top-0 z-50 glass-nav bg-white/95">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-24">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="flex items-center gap-3">
+                        <img class="h-12 w-auto" src="logo.png" alt="Mundo Gráfico Madrid">
+                        <span class="font-bold text-2xl tracking-tight hidden sm:block">Mundo Gráfico</span>
+                    </a>
+                </div>
+                <nav class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="rotulacion.html" class="nav-link active">Rotulación</a>
+                    <a href="ropa-laboral.html" class="nav-link">Ropa Laboral</a>
+                    <a href="gran-formato.html" class="nav-link">Gran Formato</a>
+                </nav>
+                <div class="hidden md:flex items-center">
+                    <a href="contacto.html" class="btn btn-primary">Pedir Presupuesto</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-btn" class="text-gray-900 focus:outline-none">
+                        <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-4 pt-2 pb-6 shadow-xl border-t border-gray-100">
+            <a href="index.html" class="block py-3 font-medium text-gray-700">Inicio</a>
+            <a href="rotulacion.html" class="block py-3 font-semibold text-brand-red">Rotulación</a>
+            <a href="ropa-laboral.html" class="block py-3 font-medium text-gray-700">Ropa Laboral</a>
+            <a href="gran-formato.html" class="block py-3 font-medium text-gray-700">Gran Formato</a>
+            <a href="contacto.html" class="block py-3 font-medium text-gray-700">Contacto</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-section">
+            <div class="max-w-5xl mx-auto relative z-10">
+                <h1 class="hero-title">Rotulación que atrae <br><span class="text-brand-red">todas las miradas</span>.</h1>
+                <p class="hero-subtitle">Especialistas en transformar la imagen exterior e interior de tu negocio con materiales de máxima durabilidad.</p>
+                <a href="contacto.html" class="btn btn-primary">Cotizar Rotulación</a>
+            </div>
+            <div class="absolute top-0 right-0 w-96 h-96 rounded-full bg-brand-red/10 blur-[120px] -z-10"></div>
+        </section>
+
+        <!-- Contenido (Printful / MOO Layout: Limpio, mucha respiración) -->
+        <section class="py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-32">
+                
+                <!-- Feature 1 -->
+                <div class="flex flex-col md:flex-row items-center gap-16">
+                    <div class="w-full md:w-1/2">
+                        <span class="text-brand-red font-bold tracking-wider uppercase text-sm mb-4 block">Para Locales</span>
+                        <h2 class="text-4xl font-bold mb-6">Escaparates y Fachadas</h2>
+                        <p class="text-xl text-gray-500 mb-8 leading-relaxed">Vestimos tu punto de venta. Desde letras corpóreas iluminadas hasta vinilos glaseados, de corte o impresión digital. Diseñamos para captar tráfico peatonal.</p>
+                        <ul class="space-y-4">
+                            <li class="flex items-center text-gray-700"><svg class="w-6 h-6 text-brand-red mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Vinilos opacos, al ácido y microperforados</li>
+                            <li class="flex items-center text-gray-700"><svg class="w-6 h-6 text-brand-red mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Letras corpóreas y cajas de luz</li>
+                            <li class="flex items-center text-gray-700"><svg class="w-6 h-6 text-brand-red mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Placas de metacrilato y aluminio</li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <div class="aspect-[4/3] rounded-[32px] overflow-hidden bg-gray-100 shadow-2xl">
+                            <img src="images/rotulacion_fachada.jpg" class="w-full h-full object-cover" alt="Rotulación Fachada">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-16">
+                    <div class="w-full md:w-1/2">
+                        <span class="text-brand-cyan font-bold tracking-wider uppercase text-sm mb-4 block">En movimiento</span>
+                        <h2 class="text-4xl font-bold mb-6">Rotulación de Vehículos</h2>
+                        <p class="text-xl text-gray-600 font-medium mb-8 leading-relaxed">Convierte tu flota comercial en publicidad móvil 24/7. Utilizamos vinilos fundidos de alto rendimiento que se adaptan a las curvas más complejas.</p>
+                        <a href="contacto.html" class="btn btn-secondary">Presupuesto para Vehículos</a>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <div class="aspect-[4/3] rounded-[32px] overflow-hidden bg-gray-100 shadow-2xl">
+                            <img src="images/rotulacion_vehiculo.jpg" class="w-full h-full object-cover" alt="Rotulación Vehículos">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- Trust Banner -->
+        <section class="bg-gray-50 border-t border-b border-gray-100 py-16">
+            <div class="max-w-7xl mx-auto px-4 text-center">
+                <h3 class="text-2xl font-bold mb-8">Servicio Integral "Llave en Mano"</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    <div>
+                        <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm border border-gray-100"><svg class="w-8 h-8 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></div>
+                        <h4 class="font-bold text-lg">1. Diseño</h4>
+                        <p class="text-gray-600 font-medium text-sm mt-2">Adaptamos tu identidad visual.</p>
+                    </div>
+                    <div>
+                        <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm border border-gray-100"><svg class="w-8 h-8 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg></div>
+                        <h4 class="font-bold text-lg">2. Fabricación</h4>
+                        <p class="text-gray-600 font-medium text-sm mt-2">Impresión con tintas duraderas.</p>
+                    </div>
+                    <div>
+                        <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm border border-gray-100"><svg class="w-8 h-8 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></div>
+                        <h4 class="font-bold text-lg">3. Montaje</h4>
+                        <p class="text-gray-600 font-medium text-sm mt-2">Instalación por expertos en Madrid.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Compartido -->
+    <footer class="bg-[#111827] text-gray-300 pt-20 pb-10 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <div class="md:col-span-1">
+                    <img src="logo.png" alt="Mundo Gráfico Madrid" class="h-16 w-auto mb-6 brightness-0 invert">
+                    <p class="text-sm font-medium">Partner integral de impresión y diseño para empresas e instituciones.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">Servicios</h4>
+                    <ul class="space-y-4 text-sm font-medium">
+                        <li><a href="rotulacion.html" class="hover:text-brand-cyan transition-colors">Rotulación y Vinilos</a></li>
+                        <li><a href="ropa-laboral.html" class="hover:text-brand-cyan transition-colors">Ropa Laboral Personalizada</a></li>
+                        <li><a href="gran-formato.html" class="hover:text-brand-cyan transition-colors">Impresión Gran Formato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">Contacto</h4>
+                    <ul class="space-y-4 text-sm font-medium">
+                        <li><a href="mailto:info@mundograficomadrid.com" class="hover:text-brand-cyan transition-colors">info@mundograficomadrid.com</a></li>
+                        <li><a href="tel:+34673355821" class="hover:text-brand-cyan transition-colors">673 355 821</a></li>
+                        <li>Comunidad de Madrid, España</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">Síguenos</h4>
+                    <a href="https://www.instagram.com/mundograficomadrid" target="_blank" class="text-gray-300 hover:text-brand-cyan transition-colors inline-block">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex justify-between items-center text-sm font-medium">
+                <p>&copy; 2024 Mundo Gráfico Madrid. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => { menu.classList.toggle('hidden'); });
+
+        document.querySelectorAll('a[href]').forEach(link => {
+            link.addEventListener('click', e => {
+                const href = link.getAttribute('href');
+                if (href && !href.startsWith('http') && !href.startsWith('mailto') && !href.startsWith('tel') && href !== '#' && link.target !== '_blank') {
+                    e.preventDefault();
+                    document.body.style.animation = 'fade-out 0.25s forwards';
+                    setTimeout(() => window.location.href = href, 200);
+                }
+            });
+        });
+    </script>
+    <script src="js/editor.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
